@@ -10,6 +10,11 @@
     "test-sheets": "node scripts/testSheets.js",
     "token-plaid": "node scripts/plaidServer.js",
     "token-sheets": "node scripts/getSheetsToken.js"
+	"start": "node zap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellistalentpath/MoneyMousePlaid.git"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
