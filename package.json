@@ -9,7 +9,7 @@
     "test-plaid": "node scripts/testPlaid.js",
     "test-sheets": "node scripts/testSheets.js",
     "token-plaid": "node scripts/plaidServer.js",
-    "token-sheets": "node scripts/getSheetsToken.js"
+    "token-sheets": "node scripts/getSheetsToken.js",
 	"start": "npm run token-plaid mybank"
   },
   "repository": {
